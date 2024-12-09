@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ENVÍANOS TU OPINIÓN</title>
+    <link rel="icon" href="fotos/icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="pagina2.css">
+</head>
+<body>
+    <header class="cabecera">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pagina1.html">Mejores Momentos</a>
+            <a href="pagina2.html">Envía tu opinión</a>
+            
+        </nav>
+        <h1>DÉJANOS TU OPINIÓN AQUÍ</h1>
+    </header>
+
+
+
+    <form action="procesar_formulario.php" method="POST">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="text" id="correo" name="correo" required>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        <br>
+        <label>Género:</label>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <label for="comentarios">Déjanos tu opinión:</label>
+        <textarea id="comentarios" name="comentarios" required></textarea>
+        <br>
+        <label for="terminos">
+            <input type="checkbox" id="terminos" name="terminos" required> Acepto los términos
+        </label>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
