@@ -37,7 +37,7 @@ body {
   }
   .mapa{
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: left; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente (si es necesario) */
     height: 100%;
     width: 100%;
