@@ -3,6 +3,11 @@
     src: url('againts.otf') format('truetype'); /* Para TTF */
     /* También puedes usar WOFF o WOFF2 */
 }
+@font-face {
+    font-family: 'Pricedown';
+    src: url('Pricedown.otf') format('truetype'); /* Para TTF */
+    /* También puedes usar WOFF o WOFF2 */
+}
 /* Fondo general del cuerpo */
 body {
     margin: 0;
@@ -20,8 +25,33 @@ body {
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+    position: relative;
+    width: 100%; 
   }
-  
+  .formulario{
+    background-color: rgba(255, 255, 255, 1); /* Fondo blanco semitransparente */
+    color: #333; /* Color del texto para contraste */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+  }
+  .mapa{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente (si es necesario) */
+    height: 100vh;          /* Opcional: altura total de la ventana */
+  }
+  .pie{
+    background-color: rgb(139, 10, 10); /* Fondo blanco semitransparente */
+    color: #ffffff; /* Color del texto para contraste */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+    font-family: 'Legal', sans-serif;
+  }
+  iframe {
+    display: inline-block; /* Necesario para que funcione con text-align */
+}
   /* Resto del contenido */
   main {
     padding: 20px;
@@ -30,3 +60,6 @@ body {
   h1{
       font-family: 'Againts', sans-serif;
   }
+  nav{
+    font-family: 'Pricedown', sans-serif;
+}

@@ -8,7 +8,11 @@
     src: url('Pricedown.otf') format('truetype'); /* Para TTF */
     /* También puedes usar WOFF o WOFF2 */
 }
-
+@font-face {
+    font-family: 'Legal';
+    src: url('COBAISSI.otf') format('truetype'); /* Para TTF */
+    /* También puedes usar WOFF o WOFF2 */
+}
 /* Fondo general del cuerpo */
 body {
   margin: 0;
@@ -17,8 +21,19 @@ body {
   background-repeat: repeat; /* Hace que la imagen se repita */
   background-size: auto; /* Ajusta según tus necesidades */
   background-attachment: fixed; /* Opcional: Mantén el fondo fijo al hacer scroll */
+  
 }
-
+img{
+    float: none;
+}
+.principal{
+    padding-top: 2200px;
+    background-color: rgb(77, 17, 17); /* Fondo blanco semitransparente */
+    color: #ffffff; /* Color del texto para contraste */
+    padding: 20px;
+    text-align: fixed;
+    border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+}
 /* Cabecera con fondo plano */
 .cabecera {
   background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
@@ -26,6 +41,11 @@ body {
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+  position: relative;
+  width: 100%; 
+}
+.tabla{
+    border-style: dotted;
 }
 
 /* Resto del contenido */
@@ -39,3 +59,14 @@ h1{
 nav{
     font-family: 'Pricedown', sans-serif;
 }
+.nav2{
+    border-style: dashed;
+}
+.pie{
+    background-color: rgb(139, 10, 10); /* Fondo blanco semitransparente */
+    color: #ffffff; /* Color del texto para contraste */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+    font-family: 'Legal', sans-serif;
+  }

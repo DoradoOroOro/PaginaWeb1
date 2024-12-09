@@ -15,29 +15,29 @@
 }
 /* Fondo general del cuerpo */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('fotos/icono.jpg');
-    background-repeat: repeat; /* Hace que la imagen se repita */
-    background-size: auto; /* Ajusta según tus necesidades */
-    background-attachment: fixed; /* Opcional: Mantén el fondo fijo al hacer scroll */
-  }
-  img { border: 2px solid black; border-radius: 10px; }
-
-  /* Cabecera con fondo plano */
-.video{
-    float: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('fotos/icono.jpg');
+  background-repeat: repeat; /* Hace que la imagen se repita */
+  background-size: auto; /* Ajusta según tus necesidades */
+  background-attachment: fixed; /* Opcional: Mantén el fondo fijo al hacer scroll */
 }
-.cabecera {
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
-    color: #333; /* Color del texto para contraste */
+.principal{
+    background-color: rgb(77, 17, 17); /* Fondo blanco semitransparente */
+    color: #ffffff; /* Color del texto para contraste */
     padding: 20px;
-    text-align: center;
+    text-align: fixed;
     border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
-    position: relative;
-    width: 100%; 
-  }
-  .pie{
+}
+/* Cabecera con fondo plano */
+.cabecera {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  color: #333; /* Color del texto para contraste */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+}
+.pie{
     background-color: rgb(139, 10, 10); /* Fondo blanco semitransparente */
     color: #ffffff; /* Color del texto para contraste */
     padding: 10px;
@@ -45,15 +45,14 @@ body {
     border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
     font-family: 'Legal', sans-serif;
   }
-  /* Resto del contenido */
-  main {
-    padding: 20px;
-    color: #222;
-  }
-  h1{
-      font-family: 'Againts', sans-serif;
-  }
-
+/* Resto del contenido */
+main {
+  padding: 20px;
+  color: #222;
+}
+h1{
+    font-family: 'Againts', sans-serif;
+}
 nav{
     font-family: 'Pricedown', sans-serif;
 }
