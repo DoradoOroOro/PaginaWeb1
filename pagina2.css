@@ -31,13 +31,14 @@ body {
   .formulario{
     background-color: rgba(255, 255, 255, 1); /* Fondo blanco semitransparente */
     color: #333; /* Color del texto para contraste */
-    padding-left: 50px;
+    padding: 20px;
     text-align: center;
     border-bottom: 2px solid #ccc; /* Opcional: añade una línea decorativa */
+    display: flex; flex-direction: column;
   }
   .mapa{
     display: flex;
-    justify-content: left; /* Centra horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente (si es necesario) */
     height: 100%;
     width: 100%;
